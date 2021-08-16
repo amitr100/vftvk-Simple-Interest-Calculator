@@ -12,7 +12,7 @@
             <form name="myform" onsubmit="validateForm()"> <!--form validation for principal input box--> 
                 Amount <input type="number"  id="principal">  <br/>
             </form>
-            Rate <input type="range" onchange="updateRate()" id="rate" min="minval" max="maxval" value="default_val" > 
+            Rate <input type="range" onchange="updateRate()" id="rate" min="1" max="100" value="default_val" > 
                 <span id="rate_val">50%</span> <br/>
             No. of Years <select id="years"> 
              <option value=1>1</option>   
